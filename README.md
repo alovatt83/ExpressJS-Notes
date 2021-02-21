@@ -20,7 +20,7 @@ GIVEN a note-taking application
 
 ## Installation
 
-Local Machine:
+Local Machine:<br />
 Command line: npm i<br />
 Command line: npm i express<br />
 Command line: npm start<br />
