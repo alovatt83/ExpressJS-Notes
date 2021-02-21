@@ -26,7 +26,7 @@ Command line: npm i express<br />
 Command line: npm start<br />
 <br />
 Remote:
-Visit Deployed Link.
+Visit Deployed Link https://frozen-fortress-86170.herokuapp.com
 
 ## Usage
 Take and save notes for daily tasks.
