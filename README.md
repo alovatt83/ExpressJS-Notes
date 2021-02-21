@@ -19,7 +19,14 @@ GIVEN a note-taking application
 - [Contact](#contact)
 
 ## Installation
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+Local Machine:
+Command line: npm i
+Command line: npm i express
+Command line: npm start
+
+Remote:
+Visit Deployed Link.
 
 ## Usage
 Take and save notes for daily tasks.
