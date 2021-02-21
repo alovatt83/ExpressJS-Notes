@@ -21,10 +21,10 @@ GIVEN a note-taking application
 ## Installation
 
 Local Machine:
-Command line: npm i
-Command line: npm i express
-Command line: npm start
-
+Command line: npm i<br />
+Command line: npm i express<br />
+Command line: npm start<br />
+<br />
 Remote:
 Visit Deployed Link.
 
