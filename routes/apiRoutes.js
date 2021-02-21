@@ -1,10 +1,11 @@
+// Dependencies
 let db = require("../db/db.json");
 let path = require("path");
 const fs = require("fs");
 
 
 module.exports = function (app) {
-
+// Display saved results in 
   app.get("/api/notes", (req, res) => {
     fs.readFile("./db/db.json", (err, noteData) => {
         if (err) throw err;
@@ -14,7 +15,7 @@ module.exports = function (app) {
     });
   });
 
-
+// Send note data to db.json
   app.post("/api/notes", (req, res) => {
     fs.readFile("./db/db.json", (err, data) => {
         if (err) throw err;
@@ -33,7 +34,7 @@ module.exports = function (app) {
       });
     });
   });
-
+// Identify note by ID number and delete if requested
   app.delete("/api/notes/:id", (req, res) => {
     fs.readFile("./db/db.json", (err, data) => {
         if (err) throw err;
@@ -47,7 +48,7 @@ module.exports = function (app) {
 
         }
       }
-
+// Write db.json with the most updated data.
     fs.writeFile("./db/db.json", JSON.stringify(noteNew), (err) => {
         if (err) throw err;
 
